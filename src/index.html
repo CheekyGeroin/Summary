@@ -3,12 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Summary</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <header>
+      <include src="./partials/header/header.html"></include>
+    </header>
+    <main>
+      <include src="./partials/main/projects/projects.html"></include>
+      <include src="./partials/main/work/work.html"></include>
+      <include src="./partials/main/education/education.html"></include>
+      <include src="./partials/main/education/additionalEducation.html"></include>
+      <aside>
+        <include src="./partials/main/aside/image/image.html"></include>
+        <include src="./partials/main/aside/contacts/contacts.html"></include>
+        <include src="./partials/main/aside/techSkills/techSkills.html"></include>
+        <include src="./partials/main/aside/softSkills/softSkills.html"></include>
+        <include src="./partials/main/aside/language/language.html"></include>
+      </aside>
+    </main>
     <!-- <include src="./partials/example.html"></include> -->
   </body>
 </html>
