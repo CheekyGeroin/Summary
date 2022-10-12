@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Summary</title>
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,900;1,300&display=swap"
+      rel="stylesheet">
     <script type="module" src="./index.js"></script>
   </head>
   <body>
     <header>
       <include src="./partials/header/header.html"></include>
     </header>
-    <main>
-      <include src="./partials/main/projects/projects.html"></include>
-      <include src="./partials/main/work/work.html"></include>
-      <include src="./partials/main/education/education.html"></include>
-      <include src="./partials/main/education/additionalEducation.html"></include>
-      <aside>
+    <main class="main">
+      <div class="main__container">
+        <include src="./partials/main/projects/projects.html"></include>
+        <include src="./partials/main/work/work.html"></include>
+        <include src="./partials/main/education/education.html"></include>
+        <include src="./partials/main/education/additionalEducation.html"></include>
+      </div>
+      <aside class="side-bar">
         <include src="./partials/main/aside/image/image.html"></include>
         <include src="./partials/main/aside/contacts/contacts.html"></include>
         <include src="./partials/main/aside/techSkills/techSkills.html"></include>

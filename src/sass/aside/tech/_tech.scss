@@ -1,0 +1,24 @@
+.tech{
+margin-bottom: 22px;
+}
+.tech__title{
+color: $secondTextColor;
+background-color: $mainTextColor;
+font-weight: 600;
+font-size: 32px;
+padding: 9px 0 9px 22px;
+margin-bottom: 13px;
+text-transform: uppercase;
+}
+.tech__list{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+padding-left: 25px;
+height: 169px;
+}
+.tech__item{
+    &:nth-child(1){
+        margin-right: 108px;
+    }
+}

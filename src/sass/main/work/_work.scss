@@ -1,0 +1,21 @@
+.work{
+    margin-bottom: 23px;
+}
+.work__title{
+    padding: 9px 0 9px 22px;
+    background-color: $mainTextColor;
+    color: $secondTextColor;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.work__subtitle{
+    font-weight: 500;
+}
+.work__place{
+    margin-bottom: 13px;
+}
+.work__list{
+    padding-left: 25px;
+}

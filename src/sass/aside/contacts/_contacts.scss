@@ -1,0 +1,25 @@
+.contacts{
+margin-bottom: 22px;
+}
+.contacts__title{
+    color: $secondTextColor;
+    background-color: $mainTextColor;
+    padding: 9px 0 9px 22px;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.contacts__list{
+list-style: none;
+}
+.contacts__item{
+&:not(:last-child){
+    margin-bottom: 6px;
+}
+}
+.contacts__link{
+text-decoration: none;
+color: currentColor;
+font-weight: 500;
+}

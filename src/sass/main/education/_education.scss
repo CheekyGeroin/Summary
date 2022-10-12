@@ -1,0 +1,19 @@
+.education{
+margin-bottom: 23px;
+}
+.education__title{
+color: $secondTextColor;
+background-color: $mainTextColor;
+padding: 9px 0 9px 22px;
+font-weight: 600;
+font-size: 32px;
+margin-bottom: 13px;
+text-transform: uppercase;
+}
+.education__subtitle{
+font-weight: 500;
+}
+.education__years{
+    margin-left: 10px;
+    font-weight: 300;
+}

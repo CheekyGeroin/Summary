@@ -1,0 +1,20 @@
+.language__title{
+    color: $secondTextColor;
+    background-color: $mainTextColor;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 9px 0 9px 22px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.language__list{
+    list-style: none;
+}
+.language__item{
+    &:not(:last-child){
+        margin-bottom: 6px;
+    }
+}
+.language__text{
+    font-weight: 500;
+}

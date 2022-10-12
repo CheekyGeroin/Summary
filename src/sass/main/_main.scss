@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main__container{
+    max-width: 750px;
+}
+.side-bar{
+    margin-right: 56px;
+}

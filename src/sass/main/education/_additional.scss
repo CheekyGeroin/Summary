@@ -1,0 +1,18 @@
+.additional{
+    padding-bottom: 15px;
+}
+.additional__title{
+    color: $secondTextColor;
+    background-color: $mainTextColor;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 13px;
+    padding: 9px 0 9px 22px;
+    text-transform: uppercase;
+}
+.additional__subtitle{
+    font-weight: 500;
+}
+.additional__education{
+    text-decoration: underline;
+}

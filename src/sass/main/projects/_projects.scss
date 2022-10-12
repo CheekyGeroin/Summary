@@ -1,0 +1,33 @@
+.projects{
+    margin-bottom: 21px;
+}
+.projects__title{
+    background-color: $mainTextColor;
+    color: $secondTextColor;
+    padding: 9px 0 9px 22px;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.projects__subtitle{
+    font-weight: 500;
+    font-size: 26px;
+   
+}
+.projects__list{
+    list-style: none;
+    margin-bottom: 12px;
+    &.indvidual{
+        margin-bottom: 0;
+    }
+}
+.projects__item{
+   &:not(:last-child){
+    margin-bottom: 10px;
+   }
+}
+.projects__link{
+font-style: italic;
+color: currentColor;
+}
