@@ -1,19 +1,20 @@
-.header{
+.header {
     padding-top: 42px;
     padding-bottom: 42px;
     padding-left: 39px;
     background-color: $mainTextColor;
     margin-bottom: 22px;
 }
-.header__title{
+
+.header__title {
     font-size: 43px;
-color: $secondTextColor;
-font-weight: 900;
-text-align: center;
-margin-bottom: 32px;
+    color: $secondTextColor;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
-.header__subtitle{
+.header__subtitle {
     font-size: 32px;
     color: $secondTextColor;
     text-align: center;
@@ -22,7 +23,7 @@ margin-bottom: 32px;
     text-transform: uppercase;
 }
 
-.header__text{ 
+.header__text {
     color: $secondTextColor;
     margin-left: auto;
     margin-right: auto;
