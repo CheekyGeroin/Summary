@@ -28,6 +28,9 @@
    }
 }
 .projects__link{
-font-style: italic;
+font-weight: 500;
 color: currentColor;
+&--gh{
+    font-weight: 300;
+}
 }

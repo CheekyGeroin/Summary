@@ -17,3 +17,11 @@ font-weight: 500;
     margin-left: 10px;
     font-weight: 300;
 }
+.education__list{
+    list-style: none;
+}
+.education__item{
+    &:not(:last-child){
+        margin-bottom: 13px;
+    }
+}

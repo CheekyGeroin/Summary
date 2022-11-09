@@ -22,4 +22,7 @@ list-style: none;
 text-decoration: none;
 color: currentColor;
 font-weight: 500;
+&--underline{
+    text-decoration: underline;
+}
 }
